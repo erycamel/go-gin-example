@@ -1,8 +1,7 @@
 # Go Gin Example
 
-`gin` 的一个例子，包含许多有用特性
-
-## 目录
+`gin` An example of a lot of useful features
+## table of Contents
 
 本项目提供 [Gin实践](https://segmentfault.com/a/1190000013297625) 的连载示例代码
 
