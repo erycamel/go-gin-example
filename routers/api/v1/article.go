@@ -7,13 +7,13 @@ import (
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/app"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
-	"github.com/EDDYCJY/go-gin-example/service/article_service"
-	"github.com/EDDYCJY/go-gin-example/service/tag_service"
+	"github.com/erycamel/go-gin-example/pkg/app"
+	"github.com/erycamel/go-gin-example/pkg/e"
+	"github.com/erycamel/go-gin-example/pkg/qrcode"
+	"github.com/erycamel/go-gin-example/pkg/setting"
+	"github.com/erycamel/go-gin-example/pkg/util"
+	"github.com/erycamel/go-gin-example/service/article_service"
+	"github.com/erycamel/go-gin-example/service/tag_service"
 	"github.com/boombuler/barcode/qr"
 )
 

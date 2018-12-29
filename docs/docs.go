@@ -17,7 +17,7 @@ var doc = `{
         "contact": {},
         "license": {
             "name": "MIT",
-            "url": "https://github.com/EDDYCJY/go-gin-example/blob/master/LICENSE"
+            "url": "https://github.com/erycamel/go-gin-example/blob/master/LICENSE"
         },
         "version": "1.0"
     },

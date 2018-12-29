@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/file"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
+	"github.com/erycamel/go-gin-example/pkg/file"
+	"github.com/erycamel/go-gin-example/pkg/logging"
+	"github.com/erycamel/go-gin-example/pkg/setting"
+	"github.com/erycamel/go-gin-example/pkg/util"
 )
 
 func GetImageFullUrl(name string) string {

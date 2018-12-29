@@ -5,17 +5,17 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/EDDYCJY/go-gin-example/docs"
+	_ "github.com/erycamel/go-gin-example/docs"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/EDDYCJY/go-gin-example/middleware/jwt"
-	"github.com/EDDYCJY/go-gin-example/pkg/export"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/upload"
-	"github.com/EDDYCJY/go-gin-example/routers/api"
-	"github.com/EDDYCJY/go-gin-example/routers/api/v1"
+	"github.com/erycamel/go-gin-example/middleware/jwt"
+	"github.com/erycamel/go-gin-example/pkg/export"
+	"github.com/erycamel/go-gin-example/pkg/qrcode"
+	"github.com/erycamel/go-gin-example/pkg/setting"
+	"github.com/erycamel/go-gin-example/pkg/upload"
+	"github.com/erycamel/go-gin-example/routers/api"
+	"github.com/erycamel/go-gin-example/routers/api/v1"
 )
 
 func InitRouter() *gin.Engine {

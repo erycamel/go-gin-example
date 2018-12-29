@@ -9,11 +9,11 @@ import (
 
 	"github.com/fvbock/endless"
 
-	"github.com/EDDYCJY/go-gin-example/models"
-	"github.com/EDDYCJY/go-gin-example/pkg/gredis"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/routers"
+	"github.com/erycamel/go-gin-example/models"
+	"github.com/erycamel/go-gin-example/pkg/gredis"
+	"github.com/erycamel/go-gin-example/pkg/logging"
+	"github.com/erycamel/go-gin-example/pkg/setting"
+	"github.com/erycamel/go-gin-example/routers"
 )
 
 // @title Golang Gin API
@@ -22,7 +22,7 @@ import (
 // @termsOfService https://github.com/EDDYCJY/go-gin-example
 
 // @license.name MIT
-// @license.url https://github.com/EDDYCJY/go-gin-example/blob/master/LICENSE
+// @license.url https://github.com/erycamel/go-gin-example/blob/master/LICENSE
 func main() {
 	setting.Setup()
 	models.Setup()

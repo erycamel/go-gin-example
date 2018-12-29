@@ -59,7 +59,7 @@ IdleTimeout = 200
 
 ### 准备
 
-创建一个 `blog` 数据库，并且导入建表的 [SQL](https://github.com/EDDYCJY/go-gin-example/blob/master/docs/sql/blog.sql)
+创建一个 `blog` 数据库，并且导入建表的 [SQL](https://github.com/erycamel/go-gin-example/blob/master/docs/sql/blog.sql)
 
 ### 运行
 ```
@@ -75,17 +75,17 @@ $ go run main.go
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /auth                     --> github.com/EDDYCJY/go-gin-example/routers/api.GetAuth (3 handlers)
-[GIN-debug] GET    /swagger/*any             --> github.com/EDDYCJY/go-gin-example/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)
-[GIN-debug] GET    /api/v1/tags              --> github.com/EDDYCJY/go-gin-example/routers/api/v1.GetTags (4 handlers)
-[GIN-debug] POST   /api/v1/tags              --> github.com/EDDYCJY/go-gin-example/routers/api/v1.AddTag (4 handlers)
-[GIN-debug] PUT    /api/v1/tags/:id          --> github.com/EDDYCJY/go-gin-example/routers/api/v1.EditTag (4 handlers)
-[GIN-debug] DELETE /api/v1/tags/:id          --> github.com/EDDYCJY/go-gin-example/routers/api/v1.DeleteTag (4 handlers)
-[GIN-debug] GET    /api/v1/articles          --> github.com/EDDYCJY/go-gin-example/routers/api/v1.GetArticles (4 handlers)
-[GIN-debug] GET    /api/v1/articles/:id      --> github.com/EDDYCJY/go-gin-example/routers/api/v1.GetArticle (4 handlers)
-[GIN-debug] POST   /api/v1/articles          --> github.com/EDDYCJY/go-gin-example/routers/api/v1.AddArticle (4 handlers)
-[GIN-debug] PUT    /api/v1/articles/:id      --> github.com/EDDYCJY/go-gin-example/routers/api/v1.EditArticle (4 handlers)
-[GIN-debug] DELETE /api/v1/articles/:id      --> github.com/EDDYCJY/go-gin-example/routers/api/v1.DeleteArticle (4 handlers)
+[GIN-debug] GET    /auth                     --> github.com/erycamel/go-gin-example/routers/api.GetAuth (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/erycamel/go-gin-example/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/v1/tags              --> github.com/erycamel/go-gin-example/routers/api/v1.GetTags (4 handlers)
+[GIN-debug] POST   /api/v1/tags              --> github.com/erycamel/go-gin-example/routers/api/v1.AddTag (4 handlers)
+[GIN-debug] PUT    /api/v1/tags/:id          --> github.com/erycamel/go-gin-example/routers/api/v1.EditTag (4 handlers)
+[GIN-debug] DELETE /api/v1/tags/:id          --> github.com/erycamel/go-gin-example/routers/api/v1.DeleteTag (4 handlers)
+[GIN-debug] GET    /api/v1/articles          --> github.com/erycamel/go-gin-example/routers/api/v1.GetArticles (4 handlers)
+[GIN-debug] GET    /api/v1/articles/:id      --> github.com/erycamel/go-gin-example/routers/api/v1.GetArticle (4 handlers)
+[GIN-debug] POST   /api/v1/articles          --> github.com/erycamel/go-gin-example/routers/api/v1.AddArticle (4 handlers)
+[GIN-debug] PUT    /api/v1/articles/:id      --> github.com/erycamel/go-gin-example/routers/api/v1.EditArticle (4 handlers)
+[GIN-debug] DELETE /api/v1/articles/:id      --> github.com/erycamel/go-gin-example/routers/api/v1.DeleteArticle (4 handlers)
 
 Listening port is 8000
 Actual pid is 4393
