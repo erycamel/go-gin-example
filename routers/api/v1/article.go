@@ -7,6 +7,7 @@ import (
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 
+	"github.com/boombuler/barcode/qr"
 	"github.com/erycamel/go-gin-example/pkg/app"
 	"github.com/erycamel/go-gin-example/pkg/e"
 	"github.com/erycamel/go-gin-example/pkg/qrcode"
@@ -14,7 +15,6 @@ import (
 	"github.com/erycamel/go-gin-example/pkg/util"
 	"github.com/erycamel/go-gin-example/service/article_service"
 	"github.com/erycamel/go-gin-example/service/tag_service"
-	"github.com/boombuler/barcode/qr"
 )
 
 // @Summary 获取单个文章
@@ -297,7 +297,7 @@ func DeleteArticle(c *gin.Context) {
 }
 
 const (
-	QRCODE_URL = "https://github.com/EDDYCJY/blog#gin%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95"
+	QRCODE_URL = "https://github.com/erycamel/blog#gin%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95"
 )
 
 func GenerateArticlePoster(c *gin.Context) {

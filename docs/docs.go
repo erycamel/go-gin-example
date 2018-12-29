@@ -13,7 +13,7 @@ var doc = `{
     "info": {
         "description": "An example of gin",
         "title": "Golang Gin API",
-        "termsOfService": "https://github.com/EDDYCJY/go-gin-example",
+        "termsOfService": "https://github.com/erycamel/go-gin-example",
         "contact": {},
         "license": {
             "name": "MIT",

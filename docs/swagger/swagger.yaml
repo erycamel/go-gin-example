@@ -4,7 +4,7 @@ info:
   license:
     name: MIT
     url: https://github.com/erycamel/go-gin-example/blob/master/LICENSE
-  termsOfService: https://github.com/EDDYCJY/go-gin-example
+  termsOfService: https://github.com/erycamel/go-gin-example
   title: Golang Gin API
   version: "1.0"
 paths:

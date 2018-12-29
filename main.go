@@ -19,7 +19,7 @@ import (
 // @title Golang Gin API
 // @version 1.0
 // @description An example of gin
-// @termsOfService https://github.com/EDDYCJY/go-gin-example
+// @termsOfService https://github.com/erycamel/go-gin-example
 
 // @license.name MIT
 // @license.url https://github.com/erycamel/go-gin-example/blob/master/LICENSE
